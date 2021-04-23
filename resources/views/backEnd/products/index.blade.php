@@ -21,7 +21,7 @@
                         <th>Nombre</th>
                         <th>Categoria</th>
                         <th>Codigo</th>
-                        <th>Color</th>
+                        <th>stock</th>
                         <th>Precio</th>
                         <th>Imagenes</th>
                        

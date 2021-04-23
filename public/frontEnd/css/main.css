@@ -59,7 +59,7 @@ a#scrollUp {
     bottom: 0px;
     right: 10px;
     padding: 5px 10px;
-    background: #710000;
+    background: #003c1a;
     color: white;
     -webkit-animation: bounce 2s ease infinite;
     animation: bounce 2s ease infinite;
@@ -74,7 +74,7 @@ a#scrollUp i {
 **************************/
 
 .header_top {
-    background: none repeat scroll 0 0#8C1E23;
+    background: none repeat scroll 0 0#003c1a;
 }
 
 .contactinfo ul li:first-child {
@@ -160,14 +160,14 @@ a#scrollUp i {
 }
 
 .usa:hover {
-    background: #fe980f;
+    background: #003c1a;
     color: #fff;
-    border-color: #fe980f;
+    border-color: #003c1a;
 }
 
 .usa:active,
 .usa.active {
-    background: none repeat scroll 0 0 #fe980f;
+    background: none repeat scroll 0 0 #003c1a;
     box-shadow: inherit;
     outline: 0 none;
 }
@@ -179,7 +179,7 @@ a#scrollUp i {
 
 .dropdown-menu li a:hover,
 .dropdown-menu li a:focus {
-    background-color: #fe980f;
+    background-color: #003c1a;
     color: #ffffff;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
@@ -211,7 +211,7 @@ a#scrollUp i {
 }
 
 .shop-menu ul li a:hover {
-    color: #fe980f;
+    color: #003c1a;
     background: #fff;
 }
 
@@ -246,7 +246,7 @@ a#scrollUp i {
 .mainmenu ul li a.active,
 .shop-menu ul li a.active {
     background: none;
-    color: #fdb45e;
+    color: #003c1a;
 }
 
 .search_box input {
@@ -296,7 +296,7 @@ ul.sub-menu {
 }
 
 .dropdown ul.sub-menu li .active {
-    color: #fdb45e;
+    color: #003c1a;
     padding-left: 0;
 }
 
@@ -313,7 +313,7 @@ ul.sub-menu {
 }
 
 .navbar-nav li ul.sub-menu li a:hover {
-    color: #fdb45e;
+    color: #003c1a;
 }
 
 .fa-angle-down {
@@ -359,7 +359,7 @@ ul.sub-menu {
 }
 
 .companyinfo h2 span {
-    color: #fe980f;
+    color: #003c1a;
 }
 
 .companyinfo p {
@@ -397,7 +397,7 @@ ul.sub-menu {
     top: 0;
     width: 100%;
     height: 61px;
-    background: #fe980f;
+    background: #003c1a;
     border-radius: 3px;
     color: #fff;
     font-size: 20px;
@@ -492,7 +492,7 @@ ul.sub-menu {
 
 .single-widget ul li a:hover {
     background: none;
-    color: #fe980f;
+    color: #003c1a;
 }
 
 .searchform input {
@@ -507,7 +507,7 @@ ul.sub-menu {
 }
 
 .searchform button {
-    background: #fe980f;
+    background: #003c1a;
     border: medium none;
     border-radius: 0;
     margin-left: -5px;
@@ -522,7 +522,7 @@ ul.sub-menu {
 
 .searchform button:hover,
 .searchform button:focus {
-    background-color: #fe980f;
+    background-color: #003c1a;
 }
 
 .searchform p {
@@ -546,7 +546,7 @@ ul.sub-menu {
 }
 
 .footer-bottom p span a {
-    color: #fe980f;
+    color: #003c1a;
     font-style: italic;
     text-decoration: underline;
 }
@@ -564,7 +564,7 @@ ul.sub-menu {
 }
 
 .carousel-indicators li.active {
-    background: #fe980f;
+    background: #003c1a;
 }
 
 .item {
@@ -589,7 +589,7 @@ ul.sub-menu {
 }
 
 .item h1 span {
-    color: #fe980f;
+    color: #003c1a;
 }
 
 .item h2 {
@@ -609,7 +609,7 @@ ul.sub-menu {
 }
 
 .get {
-    background: #fe980f;
+    background: #003c1a;
     border: 0 none;
     border-radius: 0;
     color: #ffffff;
@@ -620,7 +620,7 @@ ul.sub-menu {
 }
 
 .item button:hover {
-    background: #fe980f;
+    background: #003c1a;
 }
 
 .control-carousel {
@@ -631,7 +631,7 @@ ul.sub-menu {
 }
 
 .control-carousel:hover {
-    color: #fe980f;
+    color: #003c1a;
 }
 
 .right {
@@ -646,7 +646,7 @@ ul.sub-menu {
 }
 .left-sidebar h2,
 .brands_products h2 {
-    color: #710000;
+    color: #003c1a;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -790,7 +790,7 @@ h2.title:before {
 }
 
 .tooltip-inner {
-    background-color: #fe980f;
+    background-color: #003c1a;
     border-radius: 4px;
     color: #ffffff;
     max-width: 200px;
@@ -800,7 +800,7 @@ h2.title:before {
 }
 
 .tooltip.top .tooltip-arrow {
-    border-top-color: #fe980f;
+    border-top-color: #003c1a;
     border-width: 5px 5px 0;
     bottom: 0;
     left: 50%;
@@ -816,7 +816,7 @@ h2.title:before {
 }
 
 h2.title {
-    color: #710000;
+    color: #003c1a;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -864,7 +864,7 @@ h2.title {
 }
 
 .product-overlay {
-    background: #fe980f;
+    background: #003c1a;
     top: 0;
     display: none;
     height: 0;
@@ -891,7 +891,7 @@ h2.title {
     background: #fff;
     border: 0 none;
     border-radius: 0;
-    color: #710000;
+    color: #003c1a;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     margin-bottom: 25px;
@@ -899,7 +899,7 @@ h2.title {
 
 .product-overlay .add-to-cart:hover {
     background: #fff;
-    color: #710000;
+    color: #003c1a;
 }
 
 .product-overlay p {
@@ -920,7 +920,7 @@ h2.title {
 }
 
 .add-to-cart:hover {
-    background: #710000;
+    background: #003c1a;
     border: 0 none;
     border-radius: 0;
     color: #ffffff;
@@ -935,7 +935,7 @@ h2.title {
 }
 
 .add-to-cart:hover {
-    background: #710000;
+    background: #003c1a;
     color: #ffffff;
 }
 
@@ -957,7 +957,7 @@ h2.title {
 
 .choose ul li a:hover {
     background: none;
-    color: #fe980f;
+    color: #003c1a;
 }
 
 .category-tab {
@@ -966,7 +966,7 @@ h2.title {
 
 .category-tab ul {
     background: #40403e;
-    border-bottom: 1px solid #fe980f;
+    border-bottom: 1px solid #003c1a;
     list-style: none outside none;
     margin: 0 0 30px;
     padding: 0;
@@ -984,7 +984,7 @@ h2.title {
 }
 
 .category-tab ul li a:hover {
-    background: #fe980f;
+    background: #003c1a;
     color: #fff;
 }
 
@@ -995,7 +995,7 @@ h2.title {
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
-    background-color: #fe980f;
+    background-color: #003c1a;
     border: 0px;
     color: #ffffff;
     cursor: default;
@@ -1025,7 +1025,7 @@ h2.title {
 }
 
 .recommended-item-control i {
-    background: none repeat scroll 0 0 #710000;
+    background: none repeat scroll 0 0 #003c1a;
     color: #ffffff;
     font-size: 20px;
     padding: 4px 10px;
@@ -1086,8 +1086,8 @@ h2.title {
 .pagination .active span:hover,
 .pagination .active a:focus,
 .pagination .active span:focus {
-    background-color: #fe980f;
-    border-color: #fe980f;
+    background-color: #003c1a;
+    border-color: #003c1a;
     color: #ffffff;
     cursor: default;
     z-index: 2;
@@ -1108,7 +1108,7 @@ h2.title {
 }
 
 .pagination li a:hover {
-    background: #fe980f;
+    background: #003c1a;
     color: #fff;
 }
 
@@ -1147,7 +1147,7 @@ h2.title {
 }
 
 .view-product h3 {
-    background: #fe980f;
+    background: #003c1a;
     bottom: 0;
     color: #ffffff;
     font-family: "Roboto", sans-serif;
@@ -1173,7 +1173,7 @@ h2.title {
     top: 35%;
 }
 .item-control i {
-    background: #fe980f;
+    background: #003c1a;
     color: #ffffff;
     font-size: 20px;
     padding: 5px 10px;
@@ -1218,7 +1218,7 @@ h2.title {
 }
 
 .product-information span span {
-    color: #710000;
+    color: #003c1a;
     float: left;
     font-family: "Roboto", sans-serif;
     font-size: 30px;
@@ -1250,7 +1250,7 @@ h2.title {
 }
 
 .cart {
-    background: #fe980f;
+    background: #003c1a;
     border: 0 none;
     border-radius: 0;
     color: #ffffff;
@@ -1293,13 +1293,13 @@ h2.title {
 }
 
 #reviews ul li a i {
-    color: #fe980f;
+    color: #003c1a;
     padding-right: 8px;
 }
 
 #reviews ul li a:hover {
     background: #fff;
-    color: #fe980f;
+    color: #003c1a;
 }
 
 #reviews p {
@@ -1339,7 +1339,7 @@ h2.title {
 }
 
 #reviews button {
-    background: #fe980f;
+    background: #003c1a;
     border: 0 none;
     border-radius: 0;
     color: #ffffff;
@@ -1377,7 +1377,7 @@ h2.title {
 }
 
 .content-404 h2 a {
-    background: #fe980f;
+    background: #003c1a;
     color: #ffffff;
     font-family: "Roboto", sans-serif;
     font-size: 44px;
@@ -1444,7 +1444,7 @@ h2.title {
 
 .login-form form button,
 .signup-form form button {
-    background: #710000;
+    background: #003c1a;
     border: medium none;
     border-radius: 0;
     color: #ffffff;
@@ -1496,7 +1496,7 @@ h2.title {
 }
 
 .breadcrumbs .breadcrumb li a {
-    background: #fe980f;
+    background: #003c1a;
     color: #ffffff;
     padding: 3px 7px;
 }
@@ -1507,7 +1507,7 @@ h2.title {
     width: auto;
     border-width: 8px;
     border-style: solid;
-    border-color: transparent transparent transparent #fe980f;
+    border-color: transparent transparent transparent #003c1a;
     position: absolute;
     top: 11px;
     left: 48px;
@@ -1718,7 +1718,7 @@ textarea {
 
 .update,
 .check_out {
-    background: #fe980f;
+    background: #003c1a;
     border-radius: 0;
     color: #ffffff;
     margin-top: 18px;
@@ -1797,7 +1797,7 @@ textarea {
     margin-right: 10px;
     border-radius: 50%;
     padding: 5px;
-    background: #fe980f;
+    background: #003c1a;
     color: #fff;
     font-size: 14px;
     padding: 2px 3px;
@@ -1823,7 +1823,7 @@ textarea {
 }
 
 .shopper-info {
-    background: #fe980f;
+    background: #003c1a;
     border: 0 none;
     border-radius: 0;
     margin-right: 15px;
@@ -1902,7 +1902,7 @@ textarea {
 }
 
 #cart_items .cart_info .table.table-condensed.total-result span {
-    color: #fe980f;
+    color: #003c1a;
     font-weight: 700;
     font-size: 16px;
 }
@@ -1956,7 +1956,7 @@ textarea {
 }
 
 .blog-post-area .post-meta ul li i {
-    background: #fe980f;
+    background: #003c1a;
     color: #ffffff;
     margin-left: -4px;
     margin-right: 7px;
@@ -2282,11 +2282,11 @@ textarea {
 
 .btn.btn-primary {
     color: white;
-    background: #710000;
-    border: solid #660303;
+    background: #003c1a;
+    border: solid #003c1a;
 }
 .btn.btn-primary:hover {
-    color: #710000;
+    color: #003c1a;
     background: white;
     border: solid #f0f0f0;
     transition: 0.5s;
@@ -2466,7 +2466,7 @@ textarea {
 *******tabs******
 **************************/
 .tabsito {
-    color: #710000;
+    color: #003c1a;
 }
 
 /*===========================
@@ -2931,6 +2931,7 @@ input.whats-input[type="text"]:focus {
 .funetemedia {
     font-size: medium;
     margin: 0px 15px;
+    
 }
 .menusito {
     color: #000;
@@ -2948,7 +2949,7 @@ input.whats-input[type="text"]:focus {
     background: #763626;
 }
 .bgrojo {
-    background: #710000;
+    background: #003c1a;
 }
 .bgazo {
     background: #464342;
@@ -2963,7 +2964,7 @@ input.whats-input[type="text"]:focus {
     color: #464342;
 }
 .clazo {
-    color: #710000;
+    color: #464342;
 }
 .clazc {
     color: #90afc5;
@@ -3006,6 +3007,7 @@ input.whats-input[type="text"]:focus {
     display: flex;
     align-items: center;
     color: #fff;
+    
 }
 
 .contentv {
@@ -3038,7 +3040,7 @@ input.whats-input[type="text"]:focus {
     position: absolute;
     top: 148px;
     left: 0;
-    background: rgba(0, 0, 0, 0.698);
+    background: rgba(0, 0, 0, 0.2);
     z-index: 1;
     opacity: 0.85;
 }
@@ -3056,23 +3058,31 @@ input.whats-input[type="text"]:focus {
 .headerv-contentv p {
     font-size: 1.5rem;
     display: block;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
+    
 }
 
 @media (max-width: 960px) {
     .contentv {
         padding: 0 1rem 0 1rem;
+        z-index: -1;
     }
     .headerv-videov {
         height: 50vh;
+        top: 163px;
+        z-index: -1;
     }
     .headerv-overlayv {
-        height: 48vh;
-        top: 155px;
+        height: 45vh;
+        top: 185px;
+        z-index: -1;
     }
     .headerv {
-        height: 60vh;
+        height: 55vh;
     }
+
+        
+    
 }
 
 .redesgrande {
@@ -3101,6 +3111,8 @@ input.whats-input[type="text"]:focus {
 .portfolio-item {
     position: relative;
     overflow: hidden;
+   
+    height: 200px;
 }
 .portfolio-item figure {
     margin: 0;
@@ -3237,4 +3249,18 @@ figure.hover figcaption {
 }
 .page-link {
     background: red;
+}
+.fondito{
+    background: rgba(0, 0, 0, 0.2);
+    
+}
+.bottom-line
+{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 0;
+    border-top: 0px;
+    height: 3px;
+    width: 80px;
+    background-color:#39a935;
 }

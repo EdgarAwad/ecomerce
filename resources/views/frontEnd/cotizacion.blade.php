@@ -30,8 +30,14 @@
               </div>
             </div>
             <div class="form-group row">
-              <div class="col-md-12">
+              <div class="col-md-6">
                 <label for="c_email" class="text-black">Email <span class="text-danger">*</span></label>
+                <input type="email" class="form-control" id="c_email" name="c_email" placeholder="">
+              </div>
+            
+            
+              <div class="col-md-6">
+                <label for="c_email" class="text-black">Telefono <span class="text-danger">*</span></label>
                 <input type="email" class="form-control" id="c_email" name="c_email" placeholder="">
               </div>
             </div>

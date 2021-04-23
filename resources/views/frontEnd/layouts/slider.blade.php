@@ -4,19 +4,34 @@
     <div class="content-whatsapp -top"><button type="button" class="closePopup">
         <i class="material-icons icon-font-color">close</i>
       </button>
-
-      <p> <img src="{{ asset('img/secretary.png') }}" width="50"> Hola, ¿en que podemos ayudarle? </p>
-
+      <div class="row">
+        <div class="col-lg-10 col-sm-10">
+          <p> <img src="{{ asset('img/secretary.png') }}" width="50">  Asesor uno</p>
+        </div>
+        <div class="col-lg-2 col-sm-2">
+          <button class="send-msPopup" id="send-btn" type="button">
+            <i class="material-icons icon-font-color--black">send</i>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-10 col-sm-10">
+          <p> <img src="{{ asset('img/secretary.png') }}" width="50">  Asesor dos</p>
+        </div>
+        <div class="col-lg-2 col-sm-2">
+          <button class="send-msPopup" id="send" type="button">
+            <i class="material-icons icon-font-color--black">send</i>
+          </button>
+        </div>
+      </div>
     </div>
     <div class="content-whatsapp -bottom">
-      <input class="whats-input" id="whats-in" type="text" Placeholder="Enviar mensaje..." />
+      <input class="whats-input" id="whats-in" type="text" Placeholder="Hola, ¿en que podemos ayudarle?" />
 
 
 
 
-      <button class="send-msPopup" id="send-btn" type="button">
-        <i class="material-icons icon-font-color--black">send</i>
-      </button>
+     
 
     </div>
   </div>
@@ -49,6 +64,13 @@
       let relmsg = msg.replace(/ /g, "%20");
 
       window.open('https://wa.me/573017779956?text=' + relmsg, '_blank');
+
+    })
+    send.addEventListener("click", () => {
+      let msg = document.getElementById('whats-in').value;
+      let relmsg = msg.replace(/ /g, "%20");
+
+      window.open('https://wa.me/573027779956?text=' + relmsg, '_blank');
 
     });
 

@@ -39,18 +39,21 @@
         <ul class="navbar-nav ml-auto  ">
 
           <li class="nav-item mr-lg-3 space_login">
-            
-            <a class="btn btn-ingreso  " href="{{url('/viewcart')}}" style="font-size: 15px;  color:white;"><span class="contador" style="background: #710000; color:white; display:flex;align-items:center; font-weight: 500;font-size: 12px;">{{$contador}}</span><i class="fa fa-shopping-cart" style="margin: 2px;"></i> </a></li>
-        
+ <!--CON EL CONTADOR <a class="btn btn-ingreso  " href="{{url('/viewcart')}}" style="font-size: 15px;  color:white;"><span class="contador" style="background: #710000; color:white; display:flex;align-items:center; font-weight: 500;font-size: 12px;">{{$contador}}</span><i class="fa fa-shopping-cart" style="margin: 2px;"></i> </a> -->
+            <a class="btn btn-ingreso  " href="{{url('/viewcart')}}" style="font-size: 15px;  color:white;"><i class="fa fa-shopping-cart" style="margin: 2px;"></i> </a>
+          </li>
+
           @if(Auth::check())
           <li class="nav-item mr-lg-3 space_login">
-            <a class="btn btn-ingreso  " href="{{url('/myaccount')}}" style="font-size: 15px; color: white;"><i class="fa fa-user"></i> Mi cuenta</a></li>
+            <a class="btn btn-ingreso  " href="{{url('/myaccount')}}" style="font-size: 15px; color: white;"><i class="fa fa-user"></i> Mi cuenta</a>
+          </li>
           <li class="nav-item mr-lg-3 space_login">
             <a class="btn btn-ingreso " href="{{ url('/logout') }}" style="font-size: 15px; color: white;"><i class="fa fa-lock" style="font-size: 15px;"></i> Salir </a>
           </li>
           @else
           <li class="nav-item mr-lg-3 space_login">
-            <a class="btn btn-ingreso" href="{{url('/login_page')}}" style="font-size: 15px; color: white;"> Iniciar sesión<noscript></noscript></a></li>
+            <a class="btn btn-ingreso" href="{{url('/login_page')}}" style="font-size: 15px; color: white;"> Iniciar sesión<noscript></noscript></a>
+          </li>
           @endif
         </ul>
       </div>

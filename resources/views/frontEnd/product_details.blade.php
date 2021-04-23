@@ -97,14 +97,11 @@
                 </div>
                 <div class="tab-pane " id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                     <br>
-                    <p class="parrafos">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi aspernatur harum possimus enim nemo praesentium consequuntur veniam ratione nobis iste aperiam eaque suscipit, ullam ea soluta impedit repudiandae nulla saepe!</p>
-
+                    <p class="parrafos" style="font-weight: 50px;"> {{$detail_product->detalles}}</p>
                 </div>
                 <div class="tab-pane " id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
                     <br>
-                    <p class="parrafos">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum accusantium sit nihil voluptate reprehenderit officia! Ad modi ratione atque iste, exercitationem est eos ducimus dolorum dignissimos placeat neque nisi numquam?
-                    </p>
+                    <p class="parrafos" style="font-weight: 50px;"> {{$detail_product->documentacion}}</p>
                 </div>
             </div>
 

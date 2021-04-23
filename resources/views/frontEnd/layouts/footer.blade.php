@@ -32,11 +32,11 @@
             <div></div>
           <div class="col-lg-4 col-md-12 col-12 " >
             <div>
-            <img src="{{ asset('img/Banner.png') }}" alt="" width="250px">
+            <img src="{{ asset('img/blanco.png') }}" alt="" width="250px">
             </div>
           </div> 
           <div class="col-lg-2 col-md-12 col-12 " style="color:gray;">
-            <h5 class="pie medium" style="color:gray;" >Alltronica  </h5>
+            <h5 class="pie medium" style="color:gray;" >I.E.S. </h5>
             <p style="margin: 0px;">Todos los derecos reservados</p>
             <p style="margin: 0px;">2020</p>
           </div>

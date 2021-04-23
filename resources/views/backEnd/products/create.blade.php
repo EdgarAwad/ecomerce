@@ -64,6 +64,20 @@
                     </div>
                 </div>
                 <div class="control-group">
+                    <label for="detalles" class="control-label">Detalles</label>
+                    <div class="controls{{$errors->has('description')?' has-error':''}}">
+                        <textarea class="textarea_editor span12" name="detalles" id="detalles" rows="6" placeholder="detalles del producto: accesorios, dimensiones, caracteristicas etc." style="width: 580px;">{{old('detalles')}}</textarea>
+                        <span class="text-danger">{{$errors->first('detalles')}}</span>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label for="documentacion" class="control-label">Documentacion</label>
+                    <div class="controls{{$errors->has('description')?' has-error':''}}">
+                        <textarea class="textarea_editor span12" name="documentacion" id="documentacion" rows="6" placeholder="datasheet" style="width: 580px;">{{old('documentacion')}}</textarea>
+                        <span class="text-danger">{{$errors->first('documentacion')}}</span>
+                    </div>
+                </div>
+                <div class="control-group">
                     <label for="price" class="control-label">Precio</label>
                     <div class="controls{{$errors->has('price')?' has-error':''}}">
                         <div class="input-prepend"> <span class="add-on">$</span>
